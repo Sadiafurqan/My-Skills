@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins", sans-serif , Arial, Helvetica, sans-serif;
+}
+body{
+    background-repeat: repeat;
+    background-image: url("https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg");
+
+}
+    p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    color: brown;
+    cursor: pointer;
+}
+h1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    color: rgb(36, 66, 5);
+    cursor: pointer;
+}
+h2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    color: rgb(5, 45, 131);
+    cursor: pointer;
+}
+h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    color: rgb(172, 15, 193);
+    cursor: pointer;
+}
+h4{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    color: rgb(218, 191, 16);
+    cursor: pointer;
+}
+h5{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    color: rgb(32, 23, 23);
+    cursor: pointer;
+}
+h6{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    color: rgb(207, 91, 14);
+    cursor: pointer;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: sandybrown;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+a :button:hover{
+color: brown;
+cursor: pointer;
+}
+/* Mobile styles */
+body {
+    font-size: 16px;
+}
+
+/* Tablet and up */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+/* Styles for mobile devices */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .nav {
+        font-size: 14px;
+    }
+}
+
+/* Styles for tablets and larger devices */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        padding: 20px;
+    }
+
+    .nav {
+        font-size: 16px;
+    }
+}
+
+/* Styles for desktops */
+@media (min-width: 1025px) {
+    .container {
+        width: 80%;
+        padding: 30px;
+    }
+
+    .nav {
+        font-size: 18px;
+    }
+}
